@@ -138,7 +138,7 @@ The orchestrator is running now.
 To set up the Orchestrator (and relayer) as a service, you can run:
 
 ```bash
-bash <(curl -s -L https://raw.githubusercontent.com/crypto-org-chain/cronos/main/docs/gravity-bridge/systemd/setup-gorc-service.sh) -t orchestrator
+bash <(curl -s -L https://github.com/crypto-org-chain/cronos-gravity-bridge-docs/blob/cc55a1b103347d8f54afc0d29ec5d7be9e3dc016/pioneer11/systemd/setup-gorc-service.sh) -t orchestrator
 ```
 
 You will be prompted for your key names set up earlier. After the service is created, you can run:
