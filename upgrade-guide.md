@@ -5,7 +5,7 @@
 This document describes the process of migrating to a new gravity contract for the network. While in principle the contract has been audited and secure, it shouldn't be changed. The upgrade process should be only trigger in case of absolute necessity (zero day bug, etcs)
 
 - Step 1: 
-Freeze outgoing transaction (no more batch should be created) so that nothing can be send to ethereum. This can be achieved by setting `BatchCreationPeriod` to a very high number or `BatchMaxElement` to zero. 
+Freeze outgoing transaction (no more batch should be created) so that nothing can be send to ethereum. This can be achieved by setting `BatchMaxElement` to zero. 
 We need to wait a significant amount of time for all batches to be relayed to Ethereum and empty the batch pool
 
 - Step 2:
