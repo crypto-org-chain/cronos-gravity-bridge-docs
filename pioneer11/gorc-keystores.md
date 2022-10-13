@@ -22,6 +22,7 @@ keystore = "/tmp/keystore"
 [gravity]
 contract = "0x0000000000000000000000000000000000000000" # TODO - gravity contract address on Ethereum network
 fees_denom = "basetcro"
+payment_address = "0x0000000000000000000000000000000000000000" # TODO - the address that will collect the relayer's fee
 
 [ethereum]
 key_derivation_path = "m/44'/60'/0'/0/0"
