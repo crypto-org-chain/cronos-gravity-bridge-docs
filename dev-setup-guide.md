@@ -6,7 +6,7 @@
 
 - `geth`, the go-ethereum binary.
 - `cronosd`, the cronos node binary.
-- `gorc`, the gravity bridge orchestrator cli, built from the [crypto-org fork](https://github.com/crypto-org-chain/gravity-bridge/tree/v2.0.0-cronos-alpha1/orchestrator/gorc).
+- `gorc`, the gravity bridge orchestrator cli, built from the [crypto-org fork](https://github.com/crypto-org-chain/gravity-bridge/tree/v2.0.0-cronos-alpha2/orchestrator/gorc).
 - `pystarport`, a tool to run local cosmos devnet.
 - `start-geth`/`start-cronos`, convenient scripts to start the local devnets.
 

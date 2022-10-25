@@ -16,7 +16,7 @@ You can use a nodes as a service provider as discussed [here](https://ethereum.o
 
 ### Binaries
 
-- `gorc`, the gravity bridge orchestrator cli, build instructions can be found [here](gorc-build.md). Alternatively, you can download Linux x86_64 binary from [here](https://github.com/crypto-org-chain/gravity-bridge/releases/tag/v2.0.0-cronos-alpha1)
+- `gorc`, the gravity bridge orchestrator cli, build instructions can be found [here](gorc-build.md). Alternatively, you can download Linux x86_64 binary from [here](https://github.com/crypto-org-chain/gravity-bridge/releases/tag/v2.0.0-cronos-alpha2)
 
 - Above binaries setup in `PATH`.
 
@@ -76,8 +76,8 @@ journalctl -u gorc -f
 ### Contracts
 
 ```
-Gravity: 0xB209F2ACF6783818D0BC5c74487BF052295F82a2 (on Goerli) - To be used in `gorc.toml`
-Eth Gravity Wrapper: 0x971eBec5Aec940050Afbe9baC08209d1036A8235 (on Goerli)
+Gravity: 0xecf7A77560687B6F5C54ce4b78D98b4482109CeC (on Goerli) - To be used in `gorc.toml`
+Eth Gravity Wrapper: 0x86c6a24db2293b7834904d0c27C29571044F895b (on Goerli)
 CroBridge: 0x38F05eb0c209c4c9Fe2D6E237f03ec503f65F088 (on Pioneer11)
 ```
 
@@ -94,11 +94,11 @@ Here are the deployed token mappings:
 ### Code
 
 1. Gravity :
-   - https://github.com/crypto-org-chain/gravity-bridge/blob/v2.0.0-cronos-alpha1/solidity/contracts/Gravity.sol
+   - https://github.com/crypto-org-chain/gravity-bridge/blob/v2.0.0-cronos-alpha2/solidity/contracts/Gravity.sol
 
 2. Eth Gravity Wrapper :
-   -  https://github.com/crypto-org-chain/gravity-bridge/blob/v2.0.0-cronos-alpha1/solidity/contracts/EthGravityWrapper.sol
+   -  https://github.com/crypto-org-chain/gravity-bridge/blob/v2.0.0-cronos-alpha2/solidity/contracts/EthGravityWrapper.sol
 
 3. CroBridge :
-   - https://github.com/crypto-org-chain/cronos/blob/v0.8.0-gravity-alpha1/integration_tests/contracts/contracts/CroBridge.sol
+   - https://github.com/crypto-org-chain/cronos/blob/v0.8.0-gravity-alpha2/integration_tests/contracts/contracts/CroBridge.sol
 
