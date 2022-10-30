@@ -16,7 +16,7 @@ You can use a nodes as a service provider as discussed [here](https://ethereum.o
 
 ### Binaries
 
-- `gorc`, the gravity bridge orchestrator cli, build instructions can be found [here](gorc-build.md). Alternatively, you can download Linux x86_64 binary from [here](https://github.com/crypto-org-chain/gravity-bridge/releases/tag/v2.0.0-cronos-alpha2)
+- `gorc`, the gravity bridge orchestrator cli, build instructions can be found [here](gorc-build.md). Alternatively, you can download Linux x86_64 binary from [here](https://github.com/crypto-org-chain/gravity-bridge/releases/tag/v2.0.0-cronos-alpha3)
 
 - Above binaries setup in `PATH`.
 
@@ -76,8 +76,8 @@ journalctl -u gorc -f
 ### Contracts
 
 ```
-Gravity: 0xecf7A77560687B6F5C54ce4b78D98b4482109CeC (on Goerli) - To be used in `gorc.toml`
-Eth Gravity Wrapper: 0x86c6a24db2293b7834904d0c27C29571044F895b (on Goerli)
+Gravity: 0xAA1Ca02916a7C30d827226450540b6240E4a93CF (on Goerli) - To be used in `gorc.toml`
+Eth Gravity Wrapper: 0xf9D339270A6369776dE9eA6F57222ea01c368D2F (on Goerli)
 CroBridge: 0x38F05eb0c209c4c9Fe2D6E237f03ec503f65F088 (on Pioneer11)
 ```
 
@@ -85,20 +85,20 @@ Here are the deployed token mappings:
 
 | ERC20 token | Goerli  | Pioneer11  |
 | ------- | --- | --- |
-| USDC | 0xD87Ba7A50B2E7E660f678A895E4B72E7CB4CCd9C | 0x8a8DfedBF6650737DFf63c2f455ecC54AcEcF197 |
-| WETH | 0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6 | 0x17774909725bA203B8501C1DEb22F2495584197e |
-| USDT | 0xe802376580c10fE23F027e1E19Ed9D54d4C9311e | 0xA5e7cD85b15586ecb8DA34AcEE42FF83ABcB555b |
-| WBTC | 0xC04B0d3107736C32e19F1c62b2aF67BE61d63a05 | 0x7825cB7feEAD896241f748c89550F3D01AF51e48 |
-| DAI  | 0xdc31Ee1784292379Fbb2964b3B9C4124D8F89C60 | 0x71339a9C403383c3E18712130615d369Ff9a7124 |
+| USDC | 0xD87Ba7A50B2E7E660f678A895E4B72E7CB4CCd9C | 0xE1E19D235D344De08Ab845e78656EB289a32875F |
+| WETH | 0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6 | 0x770b0139024e2C92D2E5dD4eA5DA5B52A32dA33f |
+| USDT | 0xe802376580c10fE23F027e1E19Ed9D54d4C9311e | 0x23Cb66F1f767984520B29441f88FD92E896A2dF7 |
+| WBTC | 0xC04B0d3107736C32e19F1c62b2aF67BE61d63a05 | 0x62ea2B07757FFA30daF475983976cDf7A4A27914 |
+| DAI  | 0xdc31Ee1784292379Fbb2964b3B9C4124D8F89C60 | 0xB209F2ACF6783818D0BC5c74487BF052295F82a2 |
 
 ### Code
 
 1. Gravity :
-   - https://github.com/crypto-org-chain/gravity-bridge/blob/v2.0.0-cronos-alpha2/solidity/contracts/Gravity.sol
+   - https://github.com/crypto-org-chain/gravity-bridge/blob/v2.0.0-cronos-alpha3/solidity/contracts/Gravity.sol
 
 2. Eth Gravity Wrapper :
-   -  https://github.com/crypto-org-chain/gravity-bridge/blob/v2.0.0-cronos-alpha2/solidity/contracts/EthGravityWrapper.sol
+   -  https://github.com/crypto-org-chain/gravity-bridge/blob/v2.0.0-cronos-alpha3/solidity/contracts/EthGravityWrapper.sol
 
 3. CroBridge :
-   - https://github.com/crypto-org-chain/cronos/blob/v0.8.0-gravity-alpha2/integration_tests/contracts/contracts/CroBridge.sol
+   - https://github.com/crypto-org-chain/cronos/blob/v0.8.0-gravity-alpha3/integration_tests/contracts/contracts/CroBridge.sol
 
